@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_zalo5"
+        android:icon="@drawable/zalo5"
+        android:title="Zalo" />
+
+    <item
+        android:id="@+id/navigation_mess5"
+        android:icon="@drawable/mess5"
+        android:title="Messenger" />
+    <item
+        android:id="@+id/navigation_shopping5"
+        android:icon="@drawable/shopping5"
+        android:title="Cart" />
+    <item
+        android:id="@+id/navigation_call5"
+        android:icon="@drawable/call5"
+        android:title="Gọi ngay" />
+
+    <item
+        android:id="@+id/navigation_map5"
+        android:icon="@drawable/donhang"
+        android:title="Đơn Hàng" />
+
+</menu>

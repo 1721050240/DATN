@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.doan">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label=""
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DoAn"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".quanli.HangDaHetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ThongKeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".quanli.QuanLiUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".quanli.ThemSPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".quanli.QuanLiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ThongTinAPPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.XemDonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ThanhToanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.DangNhapActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.DangKiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.GioHangActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ChitietSanPham"
+            android:exported="false" />
+        <activity
+            android:name=".activity.LoaiSanPhamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"></activity>
+    </application>
+
+</manifest>

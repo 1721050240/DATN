@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ThongTinAPPActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarTTApp"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/bg_tollbar"
+        app:title="Thông tin cửa hàng" />
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/toolbarTTApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Thế giới di động \nTECHONE"
+            android:textColor="#A73DC5"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:src="@drawable/shop64"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="3" />
+
+            <TextView
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Cửa hàng : TECHONE \nKinh doanh điện thoại"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="7" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:src="@drawable/home64"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_weight="3" />
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Trụ sở chính \nTân Lập Đan Phượng Hà Nội"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="7" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:src="@drawable/phone64"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_weight="3" />
+
+            <TextView
+
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Điện thoại  \n0374119202"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="7" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lienheFB"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:src="@drawable/facebook"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_weight="3" />
+
+            <TextView
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Liện hệ - Facebook: \nNguyễn Thế Hiếu"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="7" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lienheWeb"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:src="@drawable/web64"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_weight="3" />
+
+            <TextView
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Thông tin Website: \nTECHONE "
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="7" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

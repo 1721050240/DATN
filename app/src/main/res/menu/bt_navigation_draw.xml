@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="A" />
+
+    <item android:title="A" />
+
+    <item android:title="A" />
+    <item android:title="A" />
+
+    <group android:checkableBehavior="single">
+
+
+    <item
+        android:id="@+id/navigation_trangchu"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Trang chủ" />
+
+    <item
+        android:id="@+id/navigation_iphone"
+        android:icon="@drawable/ic_baseline_phone_iphone_24"
+        android:title="Iphone" />
+
+    <item
+        android:id="@+id/navigation_samsung"
+        android:icon="@drawable/ic_baseline_phone_android_24"
+        android:title="Sam Sung" />
+
+    <item
+        android:id="@+id/navigation_phukien"
+        android:icon="@drawable/ic_baseline_headphones_battery_24"
+        android:title="Phụ kiện" />
+
+    <item
+        android:id="@+id/navigation_thongtin"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="Thông tin" />
+
+    </group>
+
+
+
+    <item android:title= "Người quản lí " >
+        <menu>
+            <item
+                android:id="@+id/navigation_quanli"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="Sản phẩm" />
+            <item
+                android:id="@+id/navigation_quanliuser"
+                android:icon="@drawable/ic_user_24"
+                android:title="Người dùng" />
+            <item
+                android:id="@+id/navigation_quanlidonhang"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="Đơn Hàng" />
+
+            <item
+                android:id="@+id/navigation_thongke"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="Thống Kê" />
+        </menu>
+    </item>
+
+    <item android:title= "Thiết lập " >
+        <menu>
+            <item
+                android:id="@+id/navigation_dangxuat"
+                android:icon="@drawable/ic_baseline_all_out_24"
+                android:title="Đăng xuất" />
+        </menu>
+    </item>
+
+</menu>
